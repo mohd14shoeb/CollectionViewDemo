@@ -1,0 +1,457 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		60C022161BA7F0FE001040DB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 60C022151BA7F0FE001040DB /* main.m */; };
+		60C022191BA7F0FE001040DB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 60C022181BA7F0FE001040DB /* AppDelegate.m */; };
+		60C0221F1BA7F0FE001040DB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 60C0221D1BA7F0FE001040DB /* Main.storyboard */; };
+		60C022211BA7F0FE001040DB /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 60C022201BA7F0FE001040DB /* Images.xcassets */; };
+		60C022241BA7F0FE001040DB /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 60C022221BA7F0FE001040DB /* LaunchScreen.xib */; };
+		60C022301BA7F0FE001040DB /* ZhiWeiTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 60C0222F1BA7F0FE001040DB /* ZhiWeiTests.m */; };
+		60C0223B1BA7F29A001040DB /* FriendZoneViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 60C0223A1BA7F29A001040DB /* FriendZoneViewController.m */; };
+		60C022441BA7F31B001040DB /* FriendZoneViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 60C022421BA7F31B001040DB /* FriendZoneViewCell.m */; };
+		60C022451BA7F31B001040DB /* FriendZoneViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 60C022431BA7F31B001040DB /* FriendZoneViewCell.xib */; };
+		60C0224B1BA7F4D2001040DB /* FriendZoneViewLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 60C0224A1BA7F4D2001040DB /* FriendZoneViewLayout.m */; };
+		60C0224F1BA7FFEE001040DB /* FriendZoneDatasource.m in Sources */ = {isa = PBXBuildFile; fileRef = 60C0224E1BA7FFEE001040DB /* FriendZoneDatasource.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		60C0222A1BA7F0FE001040DB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 60C022081BA7F0FE001040DB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 60C0220F1BA7F0FE001040DB;
+			remoteInfo = ZhiWei;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		60C022101BA7F0FE001040DB /* ZhiWei.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZhiWei.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		60C022141BA7F0FE001040DB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		60C022151BA7F0FE001040DB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		60C022171BA7F0FE001040DB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		60C022181BA7F0FE001040DB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		60C0221E1BA7F0FE001040DB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		60C022201BA7F0FE001040DB /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		60C022231BA7F0FE001040DB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		60C022291BA7F0FE001040DB /* ZhiWeiTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZhiWeiTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		60C0222E1BA7F0FE001040DB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		60C0222F1BA7F0FE001040DB /* ZhiWeiTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZhiWeiTests.m; sourceTree = "<group>"; };
+		60C022391BA7F29A001040DB /* FriendZoneViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FriendZoneViewController.h; path = Classes/FriendZoneViewController.h; sourceTree = "<group>"; };
+		60C0223A1BA7F29A001040DB /* FriendZoneViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FriendZoneViewController.m; path = Classes/FriendZoneViewController.m; sourceTree = "<group>"; };
+		60C022411BA7F31B001040DB /* FriendZoneViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FriendZoneViewCell.h; path = Classes/FriendZoneViewCell.h; sourceTree = "<group>"; };
+		60C022421BA7F31B001040DB /* FriendZoneViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FriendZoneViewCell.m; path = Classes/FriendZoneViewCell.m; sourceTree = "<group>"; };
+		60C022431BA7F31B001040DB /* FriendZoneViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = FriendZoneViewCell.xib; path = Classes/FriendZoneViewCell.xib; sourceTree = "<group>"; };
+		60C022491BA7F4D2001040DB /* FriendZoneViewLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FriendZoneViewLayout.h; path = Classes/FriendZoneViewLayout.h; sourceTree = "<group>"; };
+		60C0224A1BA7F4D2001040DB /* FriendZoneViewLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FriendZoneViewLayout.m; path = Classes/FriendZoneViewLayout.m; sourceTree = "<group>"; };
+		60C0224D1BA7FFEE001040DB /* FriendZoneDatasource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FriendZoneDatasource.h; path = Classes/FriendZoneDatasource.h; sourceTree = "<group>"; };
+		60C0224E1BA7FFEE001040DB /* FriendZoneDatasource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FriendZoneDatasource.m; path = Classes/FriendZoneDatasource.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		60C0220D1BA7F0FE001040DB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		60C022261BA7F0FE001040DB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		60C022071BA7F0FE001040DB = {
+			isa = PBXGroup;
+			children = (
+				60C022121BA7F0FE001040DB /* ZhiWei */,
+				60C0222C1BA7F0FE001040DB /* ZhiWeiTests */,
+				60C022111BA7F0FE001040DB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		60C022111BA7F0FE001040DB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				60C022101BA7F0FE001040DB /* ZhiWei.app */,
+				60C022291BA7F0FE001040DB /* ZhiWeiTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		60C022121BA7F0FE001040DB /* ZhiWei */ = {
+			isa = PBXGroup;
+			children = (
+				60C022171BA7F0FE001040DB /* AppDelegate.h */,
+				60C022181BA7F0FE001040DB /* AppDelegate.m */,
+				60C0221D1BA7F0FE001040DB /* Main.storyboard */,
+				60C022411BA7F31B001040DB /* FriendZoneViewCell.h */,
+				60C022421BA7F31B001040DB /* FriendZoneViewCell.m */,
+				60C022431BA7F31B001040DB /* FriendZoneViewCell.xib */,
+				60C0224D1BA7FFEE001040DB /* FriendZoneDatasource.h */,
+				60C0224E1BA7FFEE001040DB /* FriendZoneDatasource.m */,
+				60C022491BA7F4D2001040DB /* FriendZoneViewLayout.h */,
+				60C0224A1BA7F4D2001040DB /* FriendZoneViewLayout.m */,
+				60C022391BA7F29A001040DB /* FriendZoneViewController.h */,
+				60C0223A1BA7F29A001040DB /* FriendZoneViewController.m */,
+				60C022201BA7F0FE001040DB /* Images.xcassets */,
+				60C022221BA7F0FE001040DB /* LaunchScreen.xib */,
+				60C022131BA7F0FE001040DB /* Supporting Files */,
+			);
+			path = ZhiWei;
+			sourceTree = "<group>";
+		};
+		60C022131BA7F0FE001040DB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				60C022141BA7F0FE001040DB /* Info.plist */,
+				60C022151BA7F0FE001040DB /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		60C0222C1BA7F0FE001040DB /* ZhiWeiTests */ = {
+			isa = PBXGroup;
+			children = (
+				60C0222F1BA7F0FE001040DB /* ZhiWeiTests.m */,
+				60C0222D1BA7F0FE001040DB /* Supporting Files */,
+			);
+			path = ZhiWeiTests;
+			sourceTree = "<group>";
+		};
+		60C0222D1BA7F0FE001040DB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				60C0222E1BA7F0FE001040DB /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		60C0220F1BA7F0FE001040DB /* ZhiWei */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 60C022331BA7F0FE001040DB /* Build configuration list for PBXNativeTarget "ZhiWei" */;
+			buildPhases = (
+				60C0220C1BA7F0FE001040DB /* Sources */,
+				60C0220D1BA7F0FE001040DB /* Frameworks */,
+				60C0220E1BA7F0FE001040DB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZhiWei;
+			productName = ZhiWei;
+			productReference = 60C022101BA7F0FE001040DB /* ZhiWei.app */;
+			productType = "com.apple.product-type.application";
+		};
+		60C022281BA7F0FE001040DB /* ZhiWeiTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 60C022361BA7F0FE001040DB /* Build configuration list for PBXNativeTarget "ZhiWeiTests" */;
+			buildPhases = (
+				60C022251BA7F0FE001040DB /* Sources */,
+				60C022261BA7F0FE001040DB /* Frameworks */,
+				60C022271BA7F0FE001040DB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				60C0222B1BA7F0FE001040DB /* PBXTargetDependency */,
+			);
+			name = ZhiWeiTests;
+			productName = ZhiWeiTests;
+			productReference = 60C022291BA7F0FE001040DB /* ZhiWeiTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		60C022081BA7F0FE001040DB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = meitu;
+				TargetAttributes = {
+					60C0220F1BA7F0FE001040DB = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					60C022281BA7F0FE001040DB = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = 60C0220F1BA7F0FE001040DB;
+					};
+				};
+			};
+			buildConfigurationList = 60C0220B1BA7F0FE001040DB /* Build configuration list for PBXProject "ZhiWei" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 60C022071BA7F0FE001040DB;
+			productRefGroup = 60C022111BA7F0FE001040DB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				60C0220F1BA7F0FE001040DB /* ZhiWei */,
+				60C022281BA7F0FE001040DB /* ZhiWeiTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		60C0220E1BA7F0FE001040DB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				60C0221F1BA7F0FE001040DB /* Main.storyboard in Resources */,
+				60C022241BA7F0FE001040DB /* LaunchScreen.xib in Resources */,
+				60C022451BA7F31B001040DB /* FriendZoneViewCell.xib in Resources */,
+				60C022211BA7F0FE001040DB /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		60C022271BA7F0FE001040DB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		60C0220C1BA7F0FE001040DB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				60C022191BA7F0FE001040DB /* AppDelegate.m in Sources */,
+				60C022161BA7F0FE001040DB /* main.m in Sources */,
+				60C022441BA7F31B001040DB /* FriendZoneViewCell.m in Sources */,
+				60C0223B1BA7F29A001040DB /* FriendZoneViewController.m in Sources */,
+				60C0224F1BA7FFEE001040DB /* FriendZoneDatasource.m in Sources */,
+				60C0224B1BA7F4D2001040DB /* FriendZoneViewLayout.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		60C022251BA7F0FE001040DB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				60C022301BA7F0FE001040DB /* ZhiWeiTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		60C0222B1BA7F0FE001040DB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 60C0220F1BA7F0FE001040DB /* ZhiWei */;
+			targetProxy = 60C0222A1BA7F0FE001040DB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		60C0221D1BA7F0FE001040DB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				60C0221E1BA7F0FE001040DB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		60C022221BA7F0FE001040DB /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				60C022231BA7F0FE001040DB /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		60C022311BA7F0FE001040DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		60C022321BA7F0FE001040DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		60C022341BA7F0FE001040DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ZhiWei/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		60C022351BA7F0FE001040DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ZhiWei/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		60C022371BA7F0FE001040DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = ZhiWeiTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZhiWei.app/ZhiWei";
+			};
+			name = Debug;
+		};
+		60C022381BA7F0FE001040DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = ZhiWeiTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZhiWei.app/ZhiWei";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		60C0220B1BA7F0FE001040DB /* Build configuration list for PBXProject "ZhiWei" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				60C022311BA7F0FE001040DB /* Debug */,
+				60C022321BA7F0FE001040DB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		60C022331BA7F0FE001040DB /* Build configuration list for PBXNativeTarget "ZhiWei" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				60C022341BA7F0FE001040DB /* Debug */,
+				60C022351BA7F0FE001040DB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		60C022361BA7F0FE001040DB /* Build configuration list for PBXNativeTarget "ZhiWeiTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				60C022371BA7F0FE001040DB /* Debug */,
+				60C022381BA7F0FE001040DB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 60C022081BA7F0FE001040DB /* Project object */;
+}
